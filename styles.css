@@ -58,7 +58,7 @@ h1, h2, h3, h4, p {
     margin: 20px auto;
     max-width: 800px;
     height: 800px;
-    border: 6//px solid white;
+    border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
