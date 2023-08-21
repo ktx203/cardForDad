@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', sans serif;
+    background: linear-gradient(#C6D8FF, #71A9F7);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 350px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+    font-size: large;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 400px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-family:hover {
+    background-image: url("images/duoDad.jpg");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/image1.jpeg");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/babyDad.jpg");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/exploreDad.jpeg");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/zuzuDad.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
