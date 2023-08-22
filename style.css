@@ -3,29 +3,29 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "ZCOOL Kuaile", sans-serif;
-    font-size: xx-large;
+    font-size: 48px;
   }
   body {
     background-color: #669bbc;
   }
   .card {
-    width: 640px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: 15%;
+   
     -webkit-perspective: 1200px;
     perspective: 1200px;
-    transition: .5s;
+    transition: 1s;
   }
   .card:hover {
     transform: rotate(-5deg);
   }
   .card:hover .outside {
-    transform: rotateY(-130deg);
+    transform: rotateY(-160deg);
   }
   .outside,
   .inside {
@@ -77,8 +77,8 @@
   .top-layer,
   .middle-layer,
   .bottom-layer {
-    height: 80px;
-    width: 240px;
+    height: 133px;
+    width: 420px;
     background-repeat: repeat;
     background-size: 60px 100px;
     background-position: 28px 0;
@@ -94,11 +94,11 @@
     margin: auto;
   }
   .middle-layer {
-    transform: scale(0.85);
+    transform: scale(0.92);
     top: 6px;
   }
   .top-layer {
-    transform: scale(0.7);
+    transform: scale(0.8);
     top: 26px;
   }
   .candle {
@@ -115,7 +115,7 @@
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 202px;
+    bottom: 360px;
   }
   .candle:before {
     content: "";
@@ -141,9 +141,13 @@
     line-height: 120px;
   }
   #cruise-pic {
-    height: 240px;
+    height: 420px;
+    border: green 5px solid;
 }
   #title { 
     font-size: 120px;
     margin-top: 20px;
+  }
+  #gifts {
+    font-size: 50px;
   }
