@@ -8,13 +8,13 @@
     background-color: #669bbc;
   }
   .card, .openCard {
-    width: 800px;
-    height: 500px;
+    width: 746px;
+    height: 460px;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
-    top: 15%;
+    top: 20%;
    
     -webkit-perspective: 1200px;
     perspective: 1200px;
@@ -45,6 +45,8 @@
     align-items: center;
     left: 50.1%;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: green 3px solid;
   }
   .outside {
     -webkit-transform-style: preserve-3d;
@@ -53,6 +55,8 @@
     transform-origin: left;
     transition: 2s;
     font-family: "ZCOOL Kuaile", sans-serif;
+    box-sizing: border-box;
+    border: green 3px solid;
   }
   .front,
   .back {
@@ -78,8 +82,8 @@
   .top-layer,
   .middle-layer,
   .bottom-layer {
-    height: 100px;
-    width: 380px;
+    height: 90px;
+    width: 280px;
     background-repeat: repeat;
     background-size: 60px 100px;
     background-position: 28px 0;
@@ -116,7 +120,7 @@
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 264px;
+    bottom: 235px;
   }
   .candle:before {
     content: "";
@@ -143,12 +147,12 @@
     color: #000046;
   }
   #cruise-pic {
-    height: 340px;
+    height: 300px;
     border: green 5px solid;
 }
   #title { 
-    padding: 5px;
-    font-size: 110px;
+    padding: 0px;
+    font-size: 100px;
     margin-top: 20px;
   }
   #gifts {
@@ -156,7 +160,7 @@
   }
   #smallHint {
     width: 300px;
-    margin: 318px;
+    margin: 305px;
     font-size: 10px;
-    margin-left: 190px;
+    margin-left: 150px;
   }
