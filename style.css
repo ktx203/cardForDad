@@ -5,7 +5,7 @@
     font-size: 34px;
   }
   body {
-    background-color: #669bbc;
+    background-color: #dfc7da;
   }
   .card, .openCard {
     width: 746px;
@@ -35,7 +35,7 @@
     cursor: pointer;
   }
   .inside {
-    background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
+    background: linear-gradient(to right, #e7e7e7, #fefefe 30%);
     line-height: 1;
     padding: 0 20px;
     text-align: center;
@@ -46,7 +46,7 @@
     left: 50.1%;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-    border: green 3px solid;
+    border: #766b93 3px solid;
   }
   .outside {
     -webkit-transform-style: preserve-3d;
@@ -56,7 +56,7 @@
     transition: 2s;
     font-family: "ZCOOL Kuaile", sans-serif;
     box-sizing: border-box;
-    border: green 3px solid;
+    border: #766b93 3px solid;
   }
   .front,
   .back {
@@ -148,7 +148,7 @@
   }
   #cruise-pic {
     height: 300px;
-    border: green 5px solid;
+    border: #5789ee 5px solid;
 }
   #title { 
     padding: 0px;
