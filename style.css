@@ -7,7 +7,7 @@
   body {
     background-color: #669bbc;
   }
-  .card {
+  .card, .openCard {
     width: 800px;
     height: 500px;
     position: absolute;
@@ -20,10 +20,10 @@
     perspective: 1200px;
     transition: 1s;
   }
-  .card:hover {
+  .openCard {
     transform: rotate(-5deg);
   }
-  .card:hover .outside {
+  .openCard .outside {
     transform: rotateY(-160deg);
   }
   .outside,
@@ -32,6 +32,7 @@
     width: 60%;
     position: absolute;
     left: 50.1%;
+    cursor: pointer;
   }
   .inside {
     background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
@@ -51,7 +52,6 @@
     z-index: 1;
     transform-origin: left;
     transition: 2s;
-    cursor: pointer;
     font-family: "ZCOOL Kuaile", sans-serif;
   }
   .front,
