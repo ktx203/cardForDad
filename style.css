@@ -77,13 +77,13 @@
   .cake {
     width: 100%;
     position: absolute;
-    bottom: 30px;
+    bottom: 60px;
   }
   .top-layer,
   .middle-layer,
   .bottom-layer {
-    height: 90px;
-    width: 280px;
+    height: 80px;
+    width: 220px;
     background-repeat: repeat;
     background-size: 60px 100px;
     background-position: 28px 0;
@@ -120,7 +120,7 @@
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 235px;
+    bottom: 206px;
   }
   .candle:before {
     content: "";
