@@ -153,3 +153,9 @@
   #gifts {
     font-size: 50px;
   }
+  #smallHint {
+    width: 300px;
+    margin: 350px;
+    font-size: 10px;
+    margin-left: 180px;
+  }
