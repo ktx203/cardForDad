@@ -1,4 +1,5 @@
 body {
+    align-items: center;
     text-align: center;
     font-family: 'Roboto Mono', sans serif;
     font-size: 25px;
@@ -10,7 +11,7 @@ h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
 
-#bff-img {
+#profile-img {
     width: 575px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
@@ -55,35 +56,26 @@ h1, h2, h3, h4, p {
 }
 
 .gift-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin: 20px auto;
     max-width: 800px;
     height: 800px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("images/gift-cover.jpg");
+    /* background-image: url("images/gift-cover.jpg"); */
+    background-size: cover;
+    cursor: pointer;
+}
+.gift-open {
+    margin: 20px auto;
+    max-width: 800px;
+    height: 800px;
+    border: 6px solid white;
+    border-radius: 10px;
     background-size: cover;
 }
-
-#gift-img-family:hover {
-    background-image: url("images/duoDad.jpg");
-}
-
-#gift-img-hot:hover {
-    background-image: url("images/image1.jpeg");
-}
-
-#gift-img-genius:hover {
-    background-image: url("images/babyDad.jpg");
-}
-
-#gift-img-badass:hover {
-    background-image: url("images/exploreDad.jpeg");
-}
-
-#gift-img-cheers:hover {
-    background-image: url("images/zuzuDad.jpg");
-}
-
 #footer {
     font-style: italic;
     width: 400px;
