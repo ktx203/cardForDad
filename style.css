@@ -1,166 +1,197 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 34px;
-  }
-  body {
-    background-color: #dfc7da;
-  }
-  .card, .openCard {
-    width: 746px;
-    height: 460px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 20%;
-   
-    -webkit-perspective: 1200px;
-    perspective: 1200px;
-    transition: 1s;
-  }
-  .openCard {
-    transform: rotate(-5deg);
-  }
-  .openCard .outside {
-    transform: rotateY(-160deg);
-  }
-  .outside,
-  .inside {
-    height: 130%;
-    width: 60%;
-    position: absolute;
-    left: 50.1%;
-    cursor: pointer;
-  }
-  .inside {
-    background: linear-gradient(to right, #e7e7e7, #fefefe 30%);
-    line-height: 1;
-    padding: 0 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    left: 50.1%;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-    border: #766b93 3px solid;
-  }
-  .outside {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    z-index: 1;
-    transform-origin: left;
-    transition: 2s;
-    font-family: "ZCOOL Kuaile", sans-serif;
-    box-sizing: border-box;
-    border: #766b93 3px solid;
-  }
-  .front,
-  .back {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-  }
-  .front {
-    background-color: #ffffff;
-  }
-  .back {
-    transform: rotateY(180deg);
-    background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
-  }
-  .cake {
-    width: 100%;
-    position: absolute;
-    bottom: 60px;
-  }
-  .top-layer,
-  .middle-layer,
-  .bottom-layer {
-    height: 80px;
-    width: 220px;
-    background-repeat: repeat;
-    background-size: 60px 100px;
-    background-position: 28px 0;
-    background-image: linear-gradient(
-        transparent 50px,
-        #fedbab 50px,
-        #fedbab 60px,
-        transparent 60px
-      ),
-      radial-gradient(circle at 30px 5px, #994c10 30px, #fcbf29 31px);
-    border-radius: 10px 10px 0 0;
-    position: relative;
-    margin: auto;
-  }
-  .middle-layer {
-    transform: scale(0.92);
-    top: 6px;
-  }
-  .top-layer {
-    transform: scale(0.8);
-    top: 26px;
-  }
-  .candle {
-    height: 45px;
-    width: 15px;
-    background: repeating-linear-gradient(
-      45deg,
-      #fd3018 0,
-      #fd3018 5px,
-      #ffa89e 5px,
-      #ffa89e 10px
-    );
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 206px;
-  }
-  .candle:before {
-    content: "";
-    position: absolute;
-    height: 16px;
-    width: 16px;
-    background-color: #ffa500;
-    border-radius: 0 50% 50% 50%;
-    bottom: 48px;
-    transform: rotate(45deg);
-    left: -1px;
-  }
-  .outside p {
-    font-size: 23px;
-    text-transform: uppercase;
-    margin-top: 30px;
-    text-align: center;
-    letter-spacing: 6px;
-    color: #000046;
-  }
-  .inside h1 {
-    font-size: 120px;
-    line-height: 120px;
-    color: #000046;
-  }
-  #cruise-pic {
-    height: 300px;
-    border: #5789ee 5px solid;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 34px;
 }
-  #title { 
-    padding: 0px;
-    font-size: 95px;
-    margin-top: 20px;
-  }
-  #gifts {
-    font-size: 50px;
-  }
-  #smallHint {
-    width: 300px;
-    margin: 310px;
-    font-size: 10px;
-    margin-left: 150px;
-  }
+body {
+  background-color: #dfc7da;
+}
+.card, .openCard {
+  width: 746px;
+  height: 460px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 20%;
+ 
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  transition: 1s;
+}
+.openCard {
+  transform: rotate(-5deg);
+}
+.openCard .outside {
+  transform: rotateY(-160deg);
+}
+.outside,
+.inside {
+  height: 130%;
+  width: 60%;
+  position: absolute;
+  left: 50.1%;
+  cursor: pointer;
+}
+.inside {
+  background: linear-gradient(to right, #e7e7e7, #fefefe 30%);
+  line-height: 1;
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  left: 50.1%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: #766b93 3px solid;
+}
+.outside {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  z-index: 1;
+  transform-origin: left;
+  transition: 2s;
+  font-family: "ZCOOL Kuaile", sans-serif;
+  box-sizing: border-box;
+  border: #766b93 3px solid;
+}
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+}
+.front {
+  background-color: #ffffff;
+}
+.back {
+  transform: rotateY(180deg);
+  background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
+}
+.cake {
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+}
+.top-layer,
+.middle-layer,
+.bottom-layer {
+  height: 80px;
+  width: 220px;
+  background-repeat: repeat;
+  background-size: 60px 100px;
+  background-position: 28px 0;
+  background-image: linear-gradient(
+      transparent 50px,
+      #fedbab 50px,
+      #fedbab 60px,
+      transparent 60px
+    ),
+    radial-gradient(circle at 30px 5px, #994c10 30px, #fcbf29 31px);
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  margin: auto;
+}
+.middle-layer {
+  transform: scale(0.92);
+  top: 6px;
+}
+.top-layer {
+  transform: scale(0.8);
+  top: 26px;
+}
+.candle {
+  height: 45px;
+  width: 15px;
+  background: repeating-linear-gradient(
+    45deg,
+    #fd3018 0,
+    #fd3018 5px,
+    #ffa89e 5px,
+    #ffa89e 10px
+  );
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 206px;
+}
+.candle:before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  background-color: #ffa500;
+  border-radius: 0 50% 50% 50%;
+  bottom: 48px;
+  transform: rotate(45deg);
+  left: -1px;
+}
+.outside p {
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #000046;
+}
+.inside h1 {
+  font-size: 120px;
+  line-height: 120px;
+  color: #000046;
+}
+#cruise-pic {
+  height: 300px;
+  border: #5789ee 5px solid;
+}
+#title { 
+  padding: 0px;
+  font-size: 95px;
+  margin-top: 20px;
+}
+#gifts {
+  font-size: 50px;
+}
+#smallHint {
+  width: 300px;
+  margin: 310px;
+  font-size: 10px;
+  margin-left: 150px;
+}
+.giftOverlay {
+  border: 5px solid black;
+  background-color: #ffffff;
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  width: 810px;
+  height: 870px;
+  z-index: 1;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.giftImg {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.inside > a,p2 {
+  font-size: 15px;
+}
+

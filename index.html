@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Birthday Card</title>
-   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday Card</title>
     <!-- Google Font-->
     <link
@@ -13,6 +13,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="giftOverlay" id="duoDad">
+      <img src="images/duoDad.jpg" class="giftImg" id="duoDadImg">
+      <p>You Always Make Me Smile Bright</p>
+    </div>
+    <div class="giftOverlay" id="youngDad">
+      <img src="images/youngDad.jpeg" class="giftImg" id="youngDadImg">
+      <p>Love Exploring the World With You!</p>
+    </div>
+    <div class="giftOverlay" id="babyDad">
+      <img src="images/babyDad.jpg" class="giftImg" id="babyDadImg">
+      <p>Thanks for being there since the beginning 😎</p>
+    </div>
+    <div class="giftOverlay" id="exploreDad">
+      <img src="images/exploreDad.jpeg" class="giftImg" id="exploreDadImg">
+      <p>You're the greatest ⛰️</p>
+    </div>
+    <div class="giftOverlay" id="zuzuDad">
+      <img src="images/zuzuDad.jpg" class="giftImg" id="zuzuDadImg">
+      <p>We all love you so so much! ♾️❤</p>
+    </div>
     <div class="card" id="cardId">
       <div class="outside">
         <div id='outsideborder'>
@@ -32,14 +52,15 @@
       </div>
       <div class="inside">
         <p>Wishing you the happiest<br>birthday from<br>hearts full of love ❤️</p>
+        <p2>(click on your gifts)</p2>
         <div id="gifts">
-        &#x1F381; 
-        &#x1F381;
-        &#x1F381;
-        &#x1F381;
-        &#x1F381;
+        <button class="button" id="giftOne">&#x1F381</button>
+        <button class="button" id="giftTwo">&#x1F381</button>
+        <button class="button" id="giftThree">&#x1F381</button>
+        <button class="button" id="giftFour">&#x1F381</button>
+        <button class="button" id="giftFive">&#x1F381</button>
         </div>
-        <a href = "indexGifts.html" id='link'>Let's see the gifts!</a>
+        <a href = "indexGifts.html" id='link'>go to gallery</a>
         <img src= "images/cruiseDuo.jpeg" id="cruise-pic">
       </div>
     </div>
