@@ -2,6 +2,7 @@ let cardEl = document.getElementById("cardId");
 let linkEl = document.getElementById("galleryLink")
 let btnPress = [false,false,false,false,false];
 
+linkEl.style.display = "none";
 cardEl.addEventListener("click", call);
 function call() {
     if (cardEl.className === "card"){
