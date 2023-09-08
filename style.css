@@ -21,7 +21,7 @@ body {
   transition: 1s;
 }
 .openCard {
-  transform: rotate(-5deg);
+  transform: rotate(-3deg);
 }
 .openCard .outside {
   transform: rotateY(-160deg);
@@ -168,9 +168,6 @@ body {
   border: 5px solid black;
   background-color: #ffffff;
   display: none;
-  position: fixed;
-  top: 10%;
-  left: 40%;
   width: 810px;
   height: 870px;
   z-index: 1;
@@ -178,8 +175,10 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   position: absolute;
-  top: 10%;
-  left: 35%;
+   left: 40%;
+   top: 40%; 
+   margin-left: -300px;
+   margin-top: -300px;
 }
 .giftImg {
   width: 100%;
