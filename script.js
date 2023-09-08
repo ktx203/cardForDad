@@ -77,5 +77,5 @@ zuzuDad.addEventListener("click", function () {
   }
 
   function checkTrue(btnPress) {
-    return btnPress === false;
+    return btnPress === true;
   }
