@@ -21,7 +21,7 @@ body {
   transition: 1s;
 }
 .openCard {
-  transform: rotate(-3deg);
+  transform: rotate(-4deg);
 }
 .openCard .outside {
   transform: rotateY(-160deg);
