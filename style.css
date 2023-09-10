@@ -179,8 +179,7 @@ body {
   text-align: center;
   margin-top: -16em;
   margin-left: -9em;
-  animation: borderColor 10s ease infinite;
-  animation: textColor 10s ease infinite;
+  animation: borderColor 10s ease infinite, textColor 10s ease infinite;
 }
 .giftImg {
   width: 100%;
@@ -256,7 +255,7 @@ body {
 }
 
 @keyframes borderColor { 
-  0% {border: 5px solid #7e0fff;}
-  50% {border: 5px solid #0fffc1;}
-  100% {border: 5px solid #7e0fff;}
+  0% {border:#7e0fff 5px solid ;}
+  50% {border:#0fffc1 5px solid ;}
+  100% {border:#7e0fff 5px solid ;}
 }
