@@ -5,6 +5,7 @@
   font-size: 34px;
 }
 body {
+  /* background-color: #1d212b; */
   animation: wallColor 10s ease infinite;
 }
 .card, .openCard {
@@ -203,7 +204,7 @@ body {
 
 @keyframes wallColor {
   0%{
-    background-color: #EFB0C9;
+    background-color: #1d212b;
   }
   
   50% {
@@ -211,6 +212,38 @@ body {
   }
   
   100%{
-    background-color: #EFB0C9;
+    background-color: #1d212b;
   }
 }
+
+.card:after, .openCard:after {
+  position: absolute;
+  content: "";
+  top: 5vw;
+  left: 16vw;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  transform: scale(1);
+  -webkit-filter:blur(5vw);
+  -moz-filter:blur(5vw);
+  -ms-filter:blur(5vw);
+  filter: blur(5vw);
+  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background-size: 500% 500%;
+  animation: animateGlow 10s ease infinite;
+}
+
+@keyframes animateGlow {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}   
