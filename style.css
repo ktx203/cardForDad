@@ -166,7 +166,6 @@ body {
   margin-left: 150px;
 }
 .giftOverlay {
-  border: 5px solid black;
   background-color: #ffffff;
   display: none;
   position: fixed;
@@ -180,6 +179,8 @@ body {
   text-align: center;
   margin-top: -16em;
   margin-left: -9em;
+  animation: borderColor 10s ease infinite;
+  animation: textColor 10s ease infinite;
 }
 .giftImg {
   width: 100%;
@@ -252,4 +253,10 @@ body {
   0% {color: #7e0fff;}
   50% {color: #0fffc1;}
   100% {color: #7e0fff;}
+}
+
+@keyframes borderColor { 
+  0% {border: 5px solid #7e0fff;}
+  50% {border: 5px solid #0fffc1;}
+  100% {border: 5px solid #7e0fff;}
 }
