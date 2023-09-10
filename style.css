@@ -5,7 +5,7 @@
   font-size: 34px;
 }
 body {
-  background-color: #dfc7da;
+  animation: wallColor 10s ease infinite;
 }
 .card, .openCard {
   width: 746px;
@@ -199,4 +199,18 @@ body {
 
 #galleryLink {
   display: none;
+}
+
+@keyframes wallColor {
+  0%{
+    background-color: #EFB0C9;
+  }
+  
+  50% {
+    background-color: #A1C9F1;
+  }
+  
+  100%{
+    background-color: #EFB0C9;
+  }
 }
