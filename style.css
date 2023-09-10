@@ -8,7 +8,7 @@ body {
   animation: wallColor 10s ease infinite;
 }
 .card, .openCard {
-  width: 746px;
+  width: 740px;
   height: 460px;
   position: absolute;
   margin: auto;
