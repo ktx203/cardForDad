@@ -208,7 +208,7 @@ body {
   }
   
   50% {
-    background-color: #A1C9F1;
+    background-color: #151823;
   }
   
   100%{
@@ -217,7 +217,7 @@ body {
 }
 
 .card:after, .openCard:after {
-  position: absolute;
+  position: relative;
   content: "";
   top: 5vw;
   left: 16vw;
