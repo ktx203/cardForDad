@@ -36,6 +36,7 @@ p {
   transform: translateY(80px) translateX(47%);
   font-size: 32px;
   width: 65%;
+  animation: textColor 10s ease-in infinite;
 }
 
 .slide > img {
@@ -46,7 +47,7 @@ p {
   object-fit: cover;
   object-position: center;
   transform: translate(20%, 10%);
-  animation: borderColor 10s easein infinite;
+  animation: borderColor 10s ease-in infinite;
 }
 
 .slide[data-active] {
@@ -102,6 +103,11 @@ p {
   }
 }
 
+@keyframes textColor { 
+  0% {color: #7e0fff;}
+  50% {color: #0fffc1;}
+  100% {color: #7e0fff;}
+}
 
 @keyframes borderColor { 
   0% {border: 5px solid #7e0fff;}
