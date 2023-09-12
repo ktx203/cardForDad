@@ -142,9 +142,11 @@ margin-left: auto;
 margin-right: auto;
 font-family: "Poppins", sans-serif;
 color: #7e0fff;
-  text-shadow:
+text-shadow:
     1px 1px 0 #000,
     -1px 1px 0 #000,
     -1px -1px 0 #000,
     1px -1px 0 #000;
+position: relative;
+top: -17px;
 }
