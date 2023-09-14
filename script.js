@@ -8,6 +8,10 @@ function call() {
         cardEl.className = "openCard";
     } else {
          cardEl.className = "card";}
+    let linkKey  = sessionStorage.getItem("link") || "";
+         if (linkKey === "view") {
+           linkEl.style.display = "block"
+         }
   }
 
 const buttonOne = document.getElementById("giftOne");
@@ -71,8 +75,10 @@ zuzuDad.addEventListener("click", function () {
   });
   
   function checkBtnPress () {
-       if (btnPress.every(checkTrue))
-        linkEl.style.display = "block"
+       if (btnPress.every(checkTrue)) {
+        linkEl.style.display = "block";
+        sessionStorage.setItem("link","view") || "";
+       }
       
   }
 
